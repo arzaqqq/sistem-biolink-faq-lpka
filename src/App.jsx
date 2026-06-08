@@ -1,7 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+
+import Nav from './components/Navbar.jsx'
+import Beranda from './components/Beranda.jsx'
+import Link from './components/LinkSosial.jsx'
+import Faq from './components/Faq.jsx'
+import Footer from './components/Footer.jsx'
+
+
 import './App.css'
 
 function App() {
@@ -9,9 +14,18 @@ function App() {
 
   return (
     <>
+    <Nav/>
+     <div className='bg-linear-to-b from-white to-red-500 te'>
+     <Beranda/>
+    <Link/>
+     <Faq/>
+     </div>
+     <Footer/>
+  
     
     </>
   )
 }
 
 export default App
+
