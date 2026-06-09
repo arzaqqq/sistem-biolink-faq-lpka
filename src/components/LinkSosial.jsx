@@ -36,7 +36,7 @@ const socialLinks = [
   {
   name: "Email",
   description: "Untuk keperluan surat-menyurat dan informasi resmi",
-  url: "humas.lpkabandaaceh@gmail.com",
+  url: "mailto:humas.lpkabandaaceh@gmail.com",  
   image: "/images/email.png",
   }
 
