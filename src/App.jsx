@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Nav/>
-     <div className='bg-linear-to-b from-white to-red-500 te'>
+     <div className='bg-gradient-to-b from-white to-[#eebf63] min-h-screen'>
      <Beranda/>
     <Link/>
      <Faq/>

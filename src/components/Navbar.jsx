@@ -20,9 +20,9 @@ export default function Nav() {
             className="max-w-12 "
           />
           <span className="text-white  ml-2 leading-tight text-[10px] md:text-base font-semibold">
-            Kantor Wilayah Direktorat Jenderal Imigrasi Aceh
+            Kantor Wilayah Kementerian Imigrasi dan Pemasyarakatan Aceh
             <br />
-            Kantor Imigrasi Kelas III Non TPI Takengon 
+            LPKA Kelas II Banda Aceh
           </span>
         </div>
 

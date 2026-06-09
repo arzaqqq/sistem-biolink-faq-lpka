@@ -44,7 +44,7 @@ const Beranda = () => {
 
         <p className="text-lg md:text-2xl mt-4 max-w-3xl">
           Laman Resmi Bio Link   
-          Kantor Imigrasi Kelas III Non TPI Takengon
+          LPKA Kelas II Banda Aceh
         </p>
 
         <div className="md:flex gap-6 mt-10">

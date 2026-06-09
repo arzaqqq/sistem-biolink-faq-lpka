@@ -4,7 +4,7 @@ const socialLinks = [
   {
     name: "Instagram",
     description: "Ikuti, Suka, Komen dan Bagikan! 🔥",
-    url: "https://www.instagram.com/imigrasi_takengon",
+    url: "https://www.instagram.com/lpkabandaaceh?igsh=MW1rY3kybHh0bm83MQ==",
     image: "/images/instagram_bulat.png",
   },
   {
@@ -13,24 +13,14 @@ const socialLinks = [
     url: "https://www.tiktok.com/@imigrasi_takengon",
     image: "/images/tiktok.png",
   },
-  {
-    name: "Facebook",
-    description: "Informasi & Layanan Publik",
-    url: "https://www.facebook.com/kanimtakengon",
-    image: "/images/facebook.png",
-  },
+ 
   {
     name: "Youtube",
     description: "Layanan Informasi & Pengaduan",
     url: "https://www.youtube.com/channel/UCLMa2pFfEK2irYHZ2NXMEJQ",
     image: "/images/youtube_bulat.png",
   },
-  {
-    name: "Website",
-    description: "Portal Layanan Keimigrasian",
-    url: "https://takengon.imigrasi.go.id/",
-    image: "/images/website_biru.png",
-  },
+  
   {
   name: "Email",
   description: "Untuk keperluan surat-menyurat dan informasi resmi",
@@ -56,7 +46,7 @@ export default function Link() {
   <div className="flex justify-center mb-4">
     <div className="px-5 py-1 rounded-full border border-[#0b5481]/20 bg-[#0b5481]/5 backdrop-blur-sm">
       <span className="text-[10px] md:text-sm tracking-widest text-[#0b5481] font-semibold uppercase">
-        Kantor Imigrasi Kelas III Non TPI Takengon
+        LPKA Kelas II Banda Aceh
       </span>
     </div>
   </div>
@@ -81,7 +71,7 @@ export default function Link() {
     {/* SUBTITLE */}
     <p className="text-md md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
       Kunjungi dan ikuti media informasi resmi untuk mendapatkan
-      informasi terbaru seputar keimigrasian.
+      informasi terbaru seputar LPKA Kelas II Banda Aceh.
     </p>
   </div>
 </div>
