@@ -10,7 +10,7 @@ const socialLinks = [
   {
     name: "TikTok",
     description: "LPKA Kelas II Banda Aceh",
-    url: "https://www.tiktok.com/@imigrasi_takengon",
+    url: "https://www.tiktok.com/@lpkabandaaceh28?_r=1&_t=ZS-972LYYzVRbE",
     image: "/images/tiktok.png",
   },
   {
