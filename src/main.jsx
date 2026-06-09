@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.jsx'
 
+import FloatingMusicPlayer from './components/FloatingMusicPlayer.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -18,5 +20,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <RouterProvider router={router} />
+    <FloatingMusicPlayer/>
   </StrictMode>,
 )

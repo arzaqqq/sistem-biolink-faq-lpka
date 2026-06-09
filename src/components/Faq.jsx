@@ -246,7 +246,7 @@ const FAQ = () => {
         </div>
 
         {/* INFO BOX */}
-        <div className="max-w-3xl mx-auto mb-10">
+        <div className="max-w-5xl mx-auto mb-10">
           <div className="bg-white shadow-lg border-b-[5px] border-[#07213d] rounded-2xl p-6 text-center">
             <h3 className="text-lg font-bold text-[#0b5481] mb-2">
               Butuh Bantuan?

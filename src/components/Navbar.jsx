@@ -32,7 +32,7 @@ export default function Nav() {
           <img
             src="/images/logo3.png"
             alt="Logo 3"
-            className=" max-w-14 md:max-w-18 "
+            className=" max-w-14 md:max-w-18 mt-1"
           />
         </div>
 

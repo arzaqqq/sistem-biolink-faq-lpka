@@ -26,22 +26,21 @@ export default function Footer() {
 
         
 
-          {/* GOOGLE MAPS */}
-          <div className="w-full h-[260px] rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-            <iframe
-              title="Lokasi Kantor Imigrasi Takengon"
-              src="https://www.google.com/maps?q=Kantor+Imigrasi+Takengon&output=embed"
-              className="w-full h-full border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+         <div className="w-full h-[260px] rounded-2xl overflow-hidden shadow-2xl border border-white/10">
+  <iframe
+    title="Lokasi Lapas Kelas IIA Banda Aceh"
+    src="https://maps.google.com/maps?q=LEMBAGA%20PEMASYARAKATAN%20KELAS%20IIA%20BANDA%20ACEH&t=&z=16&ie=UTF8&iwloc=&output=embed"
+    className="w-full h-full border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
 
         </div>
 
         {/* COPYRIGHT */}
         <div className="border-t border-blue-700 mt-10 pt-5 text-center text-sm text-blue-200">
-          Copyright © 2026 TIM HumasLPKA Kelas II Banda Aceh
+          Copyright © 2026 TIM Humas LPKA Kelas II Banda Aceh
         </div>
 
       </div>
