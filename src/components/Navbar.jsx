@@ -12,18 +12,28 @@ export default function Nav() {
           <img
             src="/images/logo1.png"
             alt="Logo 1"
-            className="max-w-13 "
+            className="max-w-11 md:max-w-14 "
           />
           <img
             src="/images/logo2.png"
             alt="Logo 2"
-            className="max-w-12 "
+            className="max-w-11 md:max-w-14 "
           />
-          <span className="text-white  ml-2 leading-tight text-[10px] md:text-base font-semibold">
-            Kantor Wilayah Kementerian Imigrasi dan Pemasyarakatan Aceh
+          <span className="text-mist-300  ml-2 leading-tight text-[8px] md:text-[10px] font-semibold text-left">
+            KEMENTRIAN IMIGRASI DAN PEMASYARAKATAN
+            <br />
+            DIREKTORAT JENDERAL PEMASYARAKATAN
+            <br />
+            LEMBAGA PEMBINAAN KHUSUS ANAK
             <br />
             LPKA Kelas II Banda Aceh
           </span>
+
+          <img
+            src="/images/logo3.png"
+            alt="Logo 3"
+            className=" max-w-14 md:max-w-18 "
+          />
         </div>
 
         <div id="google_translate_element"></div>

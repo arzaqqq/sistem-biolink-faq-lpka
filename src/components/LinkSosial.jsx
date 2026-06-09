@@ -9,22 +9,34 @@ const socialLinks = [
   },
   {
     name: "TikTok",
-    description: "Kantor Imigrasi Takengon",
+    description: "LPKA Kelas II Banda Aceh",
     url: "https://www.tiktok.com/@imigrasi_takengon",
     image: "/images/tiktok.png",
+  },
+  {
+    name: "Facebook",
+    description: "LPKA Kelas II Banda Aceh",
+    url: "https://www.facebook.com/share/1BHGgjGN2U/",
+    image: "/images/facebook.png",
   },
  
   {
     name: "Youtube",
     description: "Layanan Informasi & Pengaduan",
-    url: "https://www.youtube.com/channel/UCLMa2pFfEK2irYHZ2NXMEJQ",
+    url: "https://youtube.com/@lpkaaceh?si=ZIJubLoPv9kCcvdPQ",
     image: "/images/youtube_bulat.png",
   },
   
   {
+  name: "Website Resmi",
+  description: "Informasi resmi seputar LPKA Kelas II Banda Aceh",
+  url: "https://lpkabandaaceh.web.id",
+  image: "/images/website.png",
+  },
+  {
   name: "Email",
   description: "Untuk keperluan surat-menyurat dan informasi resmi",
-  url: "mailto:imigrasi.takengon2@gmail.com",
+  url: "humas.lpkabandaaceh@gmail.com",
   image: "/images/email.png",
   }
 

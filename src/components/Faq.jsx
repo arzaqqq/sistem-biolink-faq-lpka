@@ -148,13 +148,14 @@ const faqData = [
   },
 ];
 
+
 const FAQItem = ({ faq, isOpen, onToggle }) => {
   return (
     <div
       className={`mb-4 rounded-2xl border transition-all duration-300  ${
         isOpen
-          ? 'bg-[#0b5481] border-[#0b5481] shadow-lg scale-[1.01]'
-          : 'bg-white hover:shadow-md border-b-[3px] border-[#084469]'
+          ? 'bg-[#07213d] border-[#0b5481] shadow-lg scale-[1.01]'
+          : 'bg-white hover:shadow-md border-b-[3px] border-[#07213d]'
       }`}
     >
       {/* QUESTION */}
@@ -187,7 +188,7 @@ const FAQItem = ({ faq, isOpen, onToggle }) => {
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <div className="p-5 border-t border-blue-400 bg-[#0b5481]">
+            <div className="p-5 border-t border-blue-400 bg-[#07213d]">
               <p className="text-white text-sm md:text-base leading-relaxed whitespace-pre-line">
                 {faq.answer}
               </p>
@@ -246,7 +247,7 @@ const FAQ = () => {
 
         {/* INFO BOX */}
         <div className="max-w-3xl mx-auto mb-10">
-          <div className="bg-white shadow-lg border-b-[5px] border-blue-700 rounded-2xl p-6 text-center">
+          <div className="bg-white shadow-lg border-b-[5px] border-[#07213d] rounded-2xl p-6 text-center">
             <h3 className="text-lg font-bold text-[#0b5481] mb-2">
               Butuh Bantuan?
             </h3>
@@ -270,7 +271,7 @@ const FAQ = () => {
               setSearchTerm(e.target.value);
               setOpenId(null);
             }}
-            className="w-full pl-12 pr-4 py-4 border-2 border-blue-700 rounded-2xl shadow-sm focus:ring-2 focus:ring-[#0b5481] outline-none bg-white"
+            className="w-full pl-12 pr-4 py-4 border-2 border-[#07213d] rounded-2xl shadow-sm focus:ring-2 focus:ring-[#0b5481] outline-none bg-white"
           />
         </div>
 
@@ -285,7 +286,7 @@ const FAQ = () => {
               }}
               className={`shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeCategory === category
-                  ? 'bg-[#0b5481] text-white shadow-md'
+                  ? 'bg-[#07213d] text-white shadow-md'
                   : 'bg-white border border-gray-300 text-gray-600 hover:border-[#0b5481]'
               }`}
             >

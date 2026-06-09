@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 
 const videos = [
-  "/video/video-kanim1.mp4",
+  "/video/video.mp4",
   // "/video/video2.mp4",
 ];
 
@@ -39,12 +39,12 @@ const Beranda = () => {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
         <h1 className="text-4xl   md:text-7xl font-bold">
-          SELAMAT DATANG
+           GEMA LPKA
         </h1>
 
         <p className="text-lg md:text-2xl mt-4 max-w-3xl">
-          Laman Resmi Bio Link   
-          LPKA Kelas II Banda Aceh
+          Gerbang Media &  Informasi Resmi LPKA Kelas II Banda Aceh <br />
+          "Satu Portal, untuk seluruh akses digital"
         </p>
 
         <div className="md:flex gap-6 mt-10">
