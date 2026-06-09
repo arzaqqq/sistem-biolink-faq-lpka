@@ -52,6 +52,37 @@ export default function FloatingMusicPlayer() {
     };
   }, []);
 
+useEffect(() => {
+  const startAudio = async () => {
+    if (!audioRef.current || isPlaying) return;
+
+    try {
+      await audioRef.current.play();
+      setIsPlaying(true);
+
+      // Hapus semua listener setelah berhasil play
+      document.removeEventListener("click", startAudio);
+      document.removeEventListener("touchstart", startAudio);
+      window.removeEventListener("scroll", startAudio);
+      document.removeEventListener("keydown", startAudio);
+    } catch (err) {
+      console.log("Autoplay diblok:", err);
+    }
+  };
+
+  document.addEventListener("click", startAudio);
+  document.addEventListener("touchstart", startAudio);
+  window.addEventListener("scroll", startAudio);
+  document.addEventListener("keydown", startAudio);
+
+  return () => {
+    document.removeEventListener("click", startAudio);
+    document.removeEventListener("touchstart", startAudio);
+    window.removeEventListener("scroll", startAudio);
+    document.removeEventListener("keydown", startAudio);
+  };
+}, [isPlaying]);
+
   // SIMPAN POSISI
   useEffect(() => {
     localStorage.setItem('music-position', JSON.stringify(position));
