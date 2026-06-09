@@ -253,8 +253,7 @@ const FAQ = () => {
             </h3>
 
             <p className="text-gray-600 text-sm">
-              Temukan jawaban cepat seputar layanan paspor,
-              visa, dan keimigrasian.
+              Temukan jawaban cepat seputar LPKA Kelas II Banda Aceh.
             </p>
           </div>
         </div>
