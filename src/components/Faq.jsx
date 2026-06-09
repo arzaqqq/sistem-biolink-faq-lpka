@@ -241,7 +241,7 @@ const FAQ = () => {
           </h2>
 
           <p className="text-lg md:text-2xl text-gray-500">
-            Pertanyaan dan Jawaban Layanan Keimigrasian
+            Pertanyaan dan Jawaban seputar LPKA Kelas II Banda Aceh.
           </p>
         </div>
 
